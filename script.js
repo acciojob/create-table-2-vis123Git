@@ -6,7 +6,7 @@ function createTable() {
 		let tr = document.createElement("tr");
 		for (let j = 0; j < cn; j++) {
 			let td = document.createElement("td");
-			td.innerText = `Rows-${i} Column-${j}`
+			td.innerText = `Row-${i} Column-${j}`
 			tr.append(td);
 		}
 		tb.append(tr);
